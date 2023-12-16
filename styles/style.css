@@ -31,6 +31,7 @@ a {
     text-transform: uppercase;
     margin-bottom: 80px;
     color: white;
+    text-align: center;
 }
 
 .wrapper {
@@ -90,6 +91,9 @@ body {
     padding: 10px 20px 7px 20px;
     font-weight: 700;
     margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contacts_places {
@@ -236,3 +240,239 @@ body {
 .left, .right {
     display: none;
 }
+
+.menu {
+    padding-bottom: 150px;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 96px;
+}
+
+.menu_btn-left,
+.menu_btn-right{
+    padding: 15px;
+    background-color: #D5621D;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.menu_list {
+    width: 1076px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:  28px 104px;
+}
+
+.menu_item {
+    width: 486px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.menu_item-infoes {
+    margin-left: 25px;
+}
+
+.menu_item-info {
+    display: flex;
+    justify-content: space-between;
+    line-height: 27px;
+}
+
+.menu_item-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5.5px;
+}
+
+.menu_item-price {
+    padding: 10px 20px 7px 20px;
+    border-radius: 5px;
+    border: 2px solid #D5621D;
+    line-height: 21px;
+}
+
+.menu_item-weight {
+    color: #D5621D;
+    margin-bottom: 10px;
+    line-height: 21px;
+}
+
+.menu_item-descr {
+    width: 351px;
+}
+
+.menu_link {
+    text-align: center;
+    border-radius: 5px;
+    background: #D5621D;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    width: 171px;
+    margin: 0 auto;
+}
+
+.events {
+    padding-bottom: 150px;
+}
+
+.events .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.events_event {
+    width: 376px;
+    text-align: center;
+    line-height: 21px;
+}
+
+.events_event .section_title {
+    margin-bottom: 35px;
+    line-height: 60px;
+}
+
+.events-btn {
+    margin-top: 35px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 2px solid #D5621D;
+    background: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.events-banner {
+    width: 416px;
+    height: 560px;
+    border-radius: 5px;
+    background: url(images/banner.jpg), lightgray 50% / cover no-repeat;
+}
+
+.rider {
+    padding-bottom: 150px;
+    width: 1078px;
+    margin: 0 auto;
+}
+
+.rider_frames {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rider_frame-one {
+    width: 526px;
+}
+
+.rider_frame-abouts {
+
+    padding: 20px 40px;
+    border-radius: 5px;
+    background: #D5621D;
+}
+
+.rider_frame-about-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rider_frame-about-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.rider_frame-abouts-dropdown-trigger {
+    background: none;
+    border: none;
+}
+
+.rider_about-dropdown_list {
+    line-height: 21px;
+    list-style: circle;
+}
+
+.rider_frame-dropdown-list {
+    margin-top: 45px;
+}
+
+.rider_frame-dropdown-item {
+    width: 526px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background: rgba(213, 98, 29, 0.10);
+    margin-bottom: 20px;
+}
+.rider_frame-dropdown-item-descr {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.rider_frame-dropdown-trigger {
+    background: none;
+    border: none;
+}
+
+.rider_frame-two {
+    width: 415px;
+    text-align: center;
+}
+
+.rider_frame-autors-title {
+    font-size: 32px;
+    font-weight: 400;
+    line-height:48px ;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.rider-frame-autors {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rider-frame-autor {
+    width: 196px;
+}
+
+.rider_frame-autor-name {
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.rider_frame-autor-socials img {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #D5621D;
+    margin-left: 25px;
+}
+
+
