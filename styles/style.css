@@ -146,8 +146,7 @@ body {
   margin-bottom: 35px;
 }
 
-.footer-map {
-}
+
 
 .footer_copyright {
   padding-top: 30px;
@@ -551,7 +550,6 @@ body {
   border-radius: 5px;
   border: 2px solid var(--accent, #d5621d);
 }
-<<<<<<< HEAD
 /* ------------------------------СТИЛИ КОРПОРАТИВ---------------------------------------------------------------------- */
 
 #corporation {
