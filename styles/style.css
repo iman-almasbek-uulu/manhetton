@@ -233,8 +233,7 @@ body {
   height: 200px;
 }
 
-.left,
-.right {
+.left {
   display: none;
 }
 
